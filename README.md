@@ -29,7 +29,7 @@ The latest set can be directly downloaded with a URI like:
 
 Download from a previous tag (eg: `v0.0.1`) like so:
 
-`https://github.com/<USER>/<REPO>/releases/download/v0.0.1/features.tgz`
+`https://github.com/<OWNER>/<REPO>/releases/download/v0.0.1/features.tgz`
 
 Note that `latest` and `v0.0.1` are not in the same spot.
 
@@ -40,23 +40,23 @@ To include your feature in a project's devcontainer, provide the following `feat
 
 ```jsonc
 features: {
-    "<PUBLISHER>/<REPO>#helloworld": {
+    "<OWNER>/<REPO>/helloworld": {
         "greeting": "Hello!"
     },
-    "<PUBLISHER>/<REPO>#color": {
+    "<OWNER>/<REPO>/color": {
         "color": "green" 
     }
 }
 ```
 
-- Where PUBLISHER is the repo owner (for this template, `joshspicer`).
-- Where REPO is the repo name (for this template, `devcontainer-features-template`)
+- Where OWNER is the repo owner (for this template, `microsoft`).
+- Where REPO is the repo name (for this template, `dev-container-features-template`)
 
 Providing no version implies the latest release's artifacts.  To supply a tag as a version, use the following notation.
 
 ```jsonc
 features: {
-    "<PUBLISHER>/<REPO>#helloworld@v0.0.1": {
+    "<OWNER>/<REPO>/helloworld@v0.0.1": {
         greeting: "Hello!"
     }
 }
