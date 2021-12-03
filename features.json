@@ -1,0 +1,30 @@
+{
+    "features": [
+        {
+            "id": "helloworld",
+            "name": "My First Feature",
+            "options": {
+                "greeting": {
+                    "type": "string",
+                    "proposals": [ "hey", "hello", "hi", "howdy" ],
+                    "default": "hey",
+                    "description": "Select a pre-made greeting, or enter your own"
+                }
+            },
+            "include": ["ubuntu"]
+        },
+        {
+            "id": "color",
+            "name": "A feature to remind you of your favorite color",
+            "options": {
+                "favorite": {
+                    "type": "string",
+                    "enum": [ "red", "gold", "green" ],
+                    "default": "red",
+                    "description": "Choose your favorite color."
+                }
+            },
+            "include": ["ubuntu"]
+        }
+    ]
+}
