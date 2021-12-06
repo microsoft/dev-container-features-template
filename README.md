@@ -1,4 +1,4 @@
-> ⚠️ NOTE: This is a work-in-progress/my experimental project. Subject to (heavy) modification!
+> ⚠️ NOTE: This is a work-in-progress project. Subject to (heavy) modification!  
 
 # Devcontainer Features Template
 
