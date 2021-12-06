@@ -14,8 +14,8 @@ jobs:
         id: get_tag_name  
         run: echo "::set-output name=tag::$(echo "${{ github.ref }}" | grep -oP 'refs/tags/\K(.+)')"
           
-      - name: Devcontainer features
-        uses: joshspicer/devcontainer-features-action@main
+      - name: Publish dev container features
+        uses: microsoft/publish-dev-container-features-action@main
         with:
           path-to-features: '.'
           
