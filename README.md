@@ -23,15 +23,9 @@ Push a tag to your repo, which will trigger the [deploy-features workflow](https
 
 Assets will be compressed and added as a release artifact with the name `features.tgz`. 
 
-The latest set can be directly downloaded with a URI like:
+The latest set can be directly downloaded with a URI like: `https://github.com/<USER>/<REPO>/releases/latest/download/features.tgz`
 
-`https://github.com/<USER>/<REPO>/releases/latest/download/features.tgz`
-
-Download from a previous tag (eg: `v0.0.1`) like so:
-
-`https://github.com/<OWNER>/<REPO>/releases/download/v0.0.1/features.tgz`
-
-Note that `latest` and `v0.0.1` are not in the same spot.
+Or, downloaded from a previous tag (eg: `v0.0.1`) like: `https://github.com/<OWNER>/<REPO>/releases/download/v0.0.1/features.tgz`
 
 
 ## Include feature in your project's devcontainer 
