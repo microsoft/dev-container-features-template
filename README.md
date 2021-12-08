@@ -60,7 +60,7 @@ features: {
 
 To add your own features to this template, follow these steps:
 
-1. Customize the [`features.json`](), adding in another `feature` object to the array. For an idea of what attributes can be provided in this preview, check out the [features definition on vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/container-features/src/features.json).  _Further documentation will be forthcoming as this functionality moves out of preview!_
+1. Customize the [`features.json`](https://github.com/microsoft/dev-container-features-template/blob/main/features.json), adding in another `feature` object to the array. For an idea of what attributes can be provided in this preview, check out the [features definition on vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/container-features/src/features.json).  _Further documentation will be forthcoming as this functionality moves out of preview!_
 
 2. The [`install.sh`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh) script is the entrypoint that the Remote-Containers extension, the devcontainer-cli, and Codespaces will use to install your features.
 
