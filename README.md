@@ -11,7 +11,7 @@ These features can then be declared in your `devcontainer.json` file for use in 
 
 ### helloworld
 
-This is a sample feature that prints whatever option you pass to it when invoking the `hello` program in a terminal.
+This is a sample feature that prints the greeting option you pass to it when invoking the `hello` program in a terminal.
 
 ### color
 
