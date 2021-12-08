@@ -27,9 +27,10 @@ Assets will be compressed and added as a release artifact with the name `feature
 
 ## Include these features in your project's devcontainer 
 
-To include your feature in a project's devcontainer, provide the following `feature` like so.
+To include your feature in a project's devcontainer, provide the following `features` like so.
 
 ```jsonc
+"image": "mcr.microsoft.com/vscode/devcontainers/base",
 features: {
     "<OWNER>/<REPO>/helloworld": {
         "greeting": "Hello!"
