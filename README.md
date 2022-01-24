@@ -66,7 +66,7 @@ To add your own features to this template, follow these steps:
 
 If a feature is declared in your `devcontainer.json`,  the `_BUILD_ARG_<FEATURE_NAME>` will be set to `true`.  If you supply any options, those are exposed as `_BUILD_ARG_<FEATURE_NAME>_<OPTION_NAME>`.
 
-Always source [`./features.env`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh#L9-L11) at the top of your install.sh script, that's the file the tooling will write all the environment variables to, and is useful for the author (you!) to use in your install script(s).
+Always source [`./devcontainer-features.env`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh#L9-L11) at the top of your install.sh script, that's the file the tooling will write all the environment variables to, and is useful for the author (you!) to use in your install script(s).
 
 ------ 
 
