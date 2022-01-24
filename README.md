@@ -56,17 +56,17 @@ features: {
 
 ## Adding your own features
 
-> This functionality is in Preview (and subject to change!) Please give it a try, and provide [feedback](https://github.com/microsoft/vscode-remote-release) along the way.
+> This functionality is in Preview (and subject to change!) Please give it a try, and provide [feedback](https://github.com/microsoft/dev-container-spec) along the way.
 
 To add your own features to this template, follow these steps:
 
-1. Customize the [`features.json`](https://github.com/microsoft/dev-container-features-template/blob/main/features.json), adding in another `feature` object to the array. For an idea of what attributes can be provided in this preview, check out the [features definition on vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/container-features/src/features.json).  _Further documentation will be forthcoming as this functionality moves out of preview!_
+1. Customize the [`devcontainer-features.json`](https://github.com/microsoft/dev-container-features-template/blob/main/devcontainer-features.json), adding in another `feature` object to the array. For an idea of what attributes can be provided in this preview, check out the [features definition on vscode-dev-containers](https://github.com/microsoft/vscode-dev-containers/blob/main/script-library/container-features/src/devcontainer-features.json).  _Further documentation will be forthcoming as this functionality moves out of preview!_
 
 2. The [`install.sh`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh) script is the entrypoint that the Remote-Containers extension, the devcontainer-cli, and Codespaces will use to install your features.
 
 If a feature is declared in your `devcontainer.json`,  the `_BUILD_ARG_<FEATURE_NAME>` will be set to `true`.  If you supply any options, those are exposed as `_BUILD_ARG_<FEATURE_NAME>_<OPTION_NAME>`.
 
-Always source [`./features.env`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh#L9-L11) at the top of your install.sh script, that's the file the tooling will write all the environment variables to, and is useful for the author (you!) to use in your install script(s).
+Always source [`./devcontainer-features.env`](https://github.com/microsoft/dev-container-features-template/blob/main/install.sh#L9-L11) at the top of your install.sh script, that's the file the tooling will write all the environment variables to, and is useful for the author (you!) to use in your install script(s).
 
 ------ 
 
