@@ -23,7 +23,7 @@ Note: Your favorite color can only be `green`, `red`, or `gold`.
 
 Push a tag (eg `v0.0.1`) to your repo, which will trigger the [deploy-features action](https://github.com/microsoft/publish-dev-container-features-action) in this repo's [`deploy-features.yml` workflow file](https://github.com/microsoft/dev-container-features-template/blob/main/.github/workflows/deploy-features.yml).
 
-Assets will be compressed and added as a release artifact with the name `features.tgz`. 
+Assets will be compressed and added as a release artifact with the name `devcontainer-features.tgz`. 
 
 ## Include these features in your project's devcontainer 
 
