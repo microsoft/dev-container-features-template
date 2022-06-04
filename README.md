@@ -36,7 +36,7 @@ features: {
         "greeting": "Hello!"
     },
     "<OWNER>/<REPO>/color": {
-        "color": "green" 
+        "favorite": "green" 
     }
 }
 ```
