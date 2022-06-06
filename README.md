@@ -31,7 +31,7 @@ To include your feature in a project's devcontainer, provide the following `feat
 
 ```jsonc
 "image": "mcr.microsoft.com/vscode/devcontainers/base",
-features: {
+"features": {
     "<OWNER>/<REPO>/helloworld": {
         "greeting": "Hello!"
     },
@@ -49,7 +49,7 @@ Providing no version implies the latest release's artifacts.  To supply a tag as
 ```jsonc
 features: {
     "<OWNER>/<REPO>/helloworld@v0.0.1": {
-        greeting: "Hello!"
+        "greeting": "Hello!"
     }
 }
 ```
