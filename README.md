@@ -1,4 +1,8 @@
-> ⚠️ NOTE: This functionality is in PREVIEW. Please note it is subject to (heavy) modification!  
+> 👋 This repo is **archived** and kept here for historical reference only.  
+>
+> For all current work related to 'dev container features', please check out [https://containers.dev](https://containers.dev) or the [dev container specification repo](https://github.com/devcontainers/spec).
+
+-------
 
 # Development container `features` Template
 
